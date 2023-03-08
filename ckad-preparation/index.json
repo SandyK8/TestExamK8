@@ -21,6 +21,20 @@
         "background": "step2/background-init.sh",
         "answer": "step2-answer.md",
         "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Pregunta4 |  Pods, Namespaces",
+        "text": "step4/step4.md",
+        "background": "step4/background-init.sh",
+        "answer": "step4-answer.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Pregunta5 |  Deployment, Rollouts",
+        "text": "step5/step5.md",
+        "background": "step5/background-init.sh",
+        "answer": "step5-answer.md",
+        "verify": "step5/verify.sh"
       }
     ],
     "intro": {
