@@ -53,6 +53,18 @@
         {
           "file": "skip.sh",
           "target": "/opt/course/"
+        },
+        {
+          "file": "api-new-c32-error.yml",
+          "target": "/opt/course/"
+        },
+        {
+          "file": "api-new-c32.yml",
+          "target": "/opt/course/"
+        },
+        {
+          "file": "my-happy-shop.yml",
+          "target": "/opt/course/"
         }
       ]
     }
