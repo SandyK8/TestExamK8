@@ -7,7 +7,7 @@ if [ -f /opt/course/skips/pregunta4.txt ]; then
     json="{\"team\":\"$archivo\", \"question\":4, \"result\":\"skip\"}"
     curl -X POST -H "Content-Type: application/json" -d "$json" https://api-dev.bhd.com.do/killer-coda/result >/dev/null 2>&1 &
 else
-    if kubectl get pod -n neptune --selector app=e-commerce >/dev/null 2>&1; then
+    if kubectl get pod -n neptune --selector app=my-happy-shop >/dev/null 2>&1; then    
         echo "Ejecución correcta."
         # Notificar al server resultado
         archivo=$(cat /opt/course/team/equipo.txt)
